@@ -3,8 +3,12 @@ body{
   font-family:"Cabin","Sans-Serif";
   text-align:center;
   color:white;
-  height:100%;
+  min-height:100%;
   max-width:100%;
+}
+html, body {
+    margin: 0;
+    height: 100%;
 }
 
 .mainParent{
@@ -52,6 +56,9 @@ a, a:link, a:visited {
   text-decoration: none;
 
 }
+
+
+
 html{
   height:100%;
   max-width:100%;
@@ -204,6 +211,10 @@ float:left;
 
 
 @media only screen and (max-width:400px){
+
+
+  
+
 .containerRight {
   
   width:90%;
@@ -249,6 +260,38 @@ float:left;
       0 0 92px #4d22b3,
       0 0 102px #4d22b3,
       0 0 151px #4d22b3;
+  data-aos-delay:0 !important ;
+}
+
+
+
+  
+.mainParent{
+
+  width:90%;
+  text-align:center;
+  padding:5px;
+  
+  margin:auto;
+  margin-top:800px;
+  margin-bottom:30px
+  border-style: solid;
+  border-width:5px;
+  border-color:white;
+  border-radius:10px;
+  box-shadow:
+      0 0 7px #ffffff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #e32400,
+      0 0 82px #e32400,
+      0 0 92px #e32400,
+      0 0 102px #e32400,
+      0 0 151px #e32400;
+  color:white !important;
+  transition-duration:0.5s
+  data-aos-delay:0 !important ;
+  
 }
 
   
