@@ -13,7 +13,7 @@ html, body {
 
 .mainParent{
 
-  width:90%;
+  width:50%; !important 
   text-align:center;
   padding:5px;
   
