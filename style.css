@@ -89,7 +89,7 @@ html{
   height:15%;
   font-size:12px;
   padding:5px;
-  margin-top:100px;
+  margin-top:50px;
   border-width:5px;
   transition-duration:0.5s;
   border-color:white;
@@ -113,7 +113,7 @@ html{
 
 .header {
   color:white;
-  margin:20px;
+  margin:10px;
     text-shadow:
       0 0 7px #fff,
       0 0 10px #fff,
@@ -268,7 +268,7 @@ float:left;
   
 .mainParent{
 
-  width:90%;
+  width:50%;
   text-align:center;
   padding:5px;
   
