@@ -1,3 +1,25 @@
+@media only screen and (max-width: 768px) {
+  .containerLeft, .containerRight {
+    width: 80% !important; /* Occupy full width on mobile */
+    float: none !important; /* Remove floating */
+    margin: 30px !important;
+    align-self: center;/* Adjust spacing */
+  }
+  .containerRight{
+    padding-bottom:30% !important;
+    margin-bottom:30% !important;
+    margin-top:30% !important;
+  }
+  .contact {
+    width: 40%; /* Reduce button width */
+    margin: 20px;
+    margin-bottom: 100px !important;/* Adjust margin */
+  }
+  .mainParent{
+    width: 90%; /* Wider on smaller screens */
+    margin-top:0px !important;
+  }
+}
 body{
   background-color:black;
   font-family:"Cabin","Sans-Serif";
